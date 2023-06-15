@@ -33,7 +33,7 @@ function ShoppingList({ items, setItems }) {
 
   return (
     <div className="ShoppingList">
-      <ItemForm onItemFormSubmit={handleItemFormSubmit} />
+      <ItemForm onItemFormSubmit={handleItemFormSubmit}/>
       <Filter
         search={search}
         onCategoryChange={handleCategoryChange}
